@@ -169,11 +169,48 @@ console.log(text);*/
 
 //Expression Substitution
 
-let price = 10;
+/*let price = 10;
 let VAT = 0.25;
 
 let total = `Total: ${(price * (1 + VAT)).toFixed(4)}`;
 
-console.log(total);
+console.log(total);*/
+
+/*/let x = (0.2 * 10 + 0.1 * 10) / 10;
+
+let y = 9999999999999999;  // y will be 10000000000000000
+
+console.log(`${x.toFixed(4)}`, y);*/
+
+/*/let x = "100";
+let y = "10";
+let z = x / y;
+
+console.log(z);*/
+
+/*let myNumber = 2;
+// Execute until Infinity
+while (myNumber != Infinity) {
+    myNumber = myNumber * myNumber;
+    console.log(myNumber);
+}
+console.log(myNumber);*/
+
+
+//let x = 15;
+//console.log(x.toString(16)); //base conversion
+
+/*let x = 9999999999999999;
+let y = BigInt("9999999999999999");
+console.log(x, y);*/
+
+/*let x = 90071992547409954587n;
+let y = 1;
+let z = Number(x) / y;
+
+console.log(z);*/
+
+let x = Number.EPSILON;
+console.log(x);
 
 
