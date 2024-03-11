@@ -297,11 +297,65 @@ function myFunction(value, index, array) {
 console.log(first);*/
 
 
-const arr = [5, 6, 8, 6, 2, 0, 15];
+/*const arr = [5, 6, 8, 6, 2, 0, 15];
 
-const c= arr.sort(function (a, b) { return b- a });
+console.log(Math.max.apply(0, arr));
 
-console.log(c);
+const c = arr.sort(function (a, b) { return b - a });
+
+console.log(c);*/
+
+/*let a = Math.trunc(4.9);
+let b = Math.trunc(4.7);
+let c = Math.trunc(4.4);
+let d = Math.trunc(4.2);
+let e = Math.trunc(-4.2);
+
+console.log(Math.random()*5);*/
+
+var number = 0;
+
+/*if (number > 0 && number % 2 == 0) {
+    console.log("The number is even");
+}
+else if (number == 0) {
+    console.log("The number is 0");
+}
+else {
+    console.log("The number is odd");
+}*/
+/*var choice = "Hello";
+switch (choice) {
+    case 0:
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case 6:
+        day = "Saturday";
+        break;
+    default:
+        day = "Today is Ramadan";
+        break;
+}
+
+console.log(day);*/
+
+
+
 
 
 
