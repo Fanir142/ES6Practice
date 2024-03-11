@@ -210,7 +210,168 @@ let z = Number(x) / y;
 
 console.log(z);*/
 
-let x = Number.EPSILON;
-console.log(x);
+/*let x = Number.EPSILON;
+console.log(x);*/
+
+//const cars = ["Saab", "Volvo", "BMW"];
+
+//const cars = [];
+//cars[0] = "Saab";
+//cars[1] = "Volvo";
+//cars[2] = "BMW";
+/*const cars = new Array("Saab", "Volvo", "BMW");
+cars[0] = "Audi";
+console.log(cars);*/
+/*const myArray = [];
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+myArray[0] = Date.now;
+myArray[1] = 20;
+myArray[2] = fruits;
+console.log(myArray);
+
+console.log(myArray[2][1]);
+
+console.log(myArray.length);
+console.log(myArray.sort());
+console.log(myArray[myArray.length - 1]);*/
+
+/*const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits.push("Grapes");
+
+console.log(fruits.shift());
+
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits.join("-"));
+}
+
+//fruits.forEach((i) => console.log(i));*/
+
+/*const myGirls = ["Cecilie", "Lone"];
+const myBoys = ["Emil", "Tobias", "Linus"];
+
+const myChildren = myGirls.concat(myBoys);
+
+console.log(myChildren);*/
+
+
+/*const arr1 = ["Cecilie", "Lone"];
+const arr2 = ["Emil", "Tobias", "Linus"];
+const arr3 = ["Robin", "Morgan"];
+
+const arr4 = ["Cecilie", "Lone", "Bruder"];
+const myChildren = arr1.concat(arr2, arr3, arr4);
+
+console.log(myChildren);*/
+
+
+/*/const fruits = ["Banana", "Orange", "Apple", "Mango", "Emil", "Tobias", "Linus"];
+const a = fruits.copyWithin(2,0, 2);
+
+console.log(a);*/
+
+/*const myArr = [[1, 2], [3, 4, [55, 66]], [5, 6]];
+const newArr = myArr.flat();
+
+console.log(newArr.flat());
+
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 0, "Lemon", "Kiwi");
+
+console.log(fruits);*/
+
+/*const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(0, 1);
+
+console.log(fruits);*/
+
+/*const numbers = [4, 9, 16,22, 25, 29];
+let first = numbers.find(myFunction);
+
+function myFunction(value, index, array) {
+  return value > 2;
+}
+
+console.log(first);*/
+
+
+const arr = [5, 6, 8, 6, 2, 0, 15];
+
+const c= arr.sort(function (a, b) { return b- a });
+
+console.log(c);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
