@@ -353,6 +353,34 @@ switch (choice) {
 }
 
 console.log(day);*/
+/*const a = [];
+var n = 5;
+console.log("The number is:")
+for (let i = 0; i <= n; i++) {
+
+    if (i % 2 != 0) {
+        a[i] = i;
+    }
+    else {
+        a[i] = 0;
+    }
+}
+
+//console.log(a);
+
+for (let x of a) {
+    if (x % 2 != 0) {
+        console.log(a[x]);
+    }
+}*/
+
+var i = 0;
+while (i <= 10) {
+    console.log(i);
+    i++;
+}
+
+
 
 
 
